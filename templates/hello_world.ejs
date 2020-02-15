@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>test ejs</title>
+</head>
+
+<body>
+    <main>
+        <center>
+            This is the {{ plaid_environment }} environment.
+            <br />
+            Hobbies of {{ data.name }} are:
+            {% for hobby in data.hobbies %}
+            <br />
+            {{ hobby }}
+            {% endfor %}
+        </center>
+    </main>
+</body>
+</html>
