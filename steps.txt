@@ -1,0 +1,12 @@
+
+
+
+
+
+
+
+
+
+
+11. Makefile
+12. automatic deployment(requirements.txt)
